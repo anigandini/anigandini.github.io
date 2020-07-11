@@ -1,0 +1,16 @@
+.navbar-container {
+    width: 100vw;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}

@@ -1,0 +1,32 @@
+.about-container {
+    margin: 0;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+    overflow: hidden;
+}
+
+.nes-container.is-rounded.is-dark.with-title,
+.nes-container.is-rounded.is-dark.with-title .title {
+    background-color: black;
+    color: white;
+}
+
+.title-container {
+    width: 80vw;
+    text-align: center;
+}
+
+.about-img-container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.about-title,
+.about-img-container img{
+    width: 100vw;
+    height: 25vh;
+}

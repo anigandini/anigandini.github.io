@@ -1,0 +1,9 @@
+.nes-container.is-rounded.is-dark.with-title {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.nes-container.is-rounded.is-dark.with-title .title {
+    background-color: black;
+}
