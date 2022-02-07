@@ -6,7 +6,7 @@ import { isMobile } from 'react-device-detect'
 const About = () => {
     
     const [clicked, setClicked] = useState(false)
-    const DownloadResumeButton = isMobile ? <a href='../assets/anahigandini-cv.pdf' onClick={() => setClicked(true)} className={clicked ? styles.clicked : ''}>
+    const DownloadResumeButton = isMobile ? <a href={require('../assets/anahigandini-cv.pdf')} onClick={() => setClicked(true)} className={clicked ? styles.clicked : ''} download>
             Download my resume
             </a> :
             <a href={require('../assets/anahigandini-cv.pdf')} download>
