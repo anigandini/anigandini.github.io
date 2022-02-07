@@ -1,0 +1,17 @@
+{  "projects": [
+    {
+        "name": "Rainbow Scroll",
+        "description": "Minimal full page scroll template in React",
+        "githubLink": "https://github.com/anigandini/rainbow-scroll",
+        "link": "https://rainbowscroll.herokuapp.com/",
+        "icon": "rainbow"
+    },
+    {
+        "name": "My Css Art Gallery",
+        "description": "My humble collection of art made in CSS",
+        "githubLink": "https://github.com/anigandini/my-css-art-gallery",
+        "link": "https://my-css-art-gallery.herokuapp.com/",
+        "icon": "art"
+    }
+]
+}
