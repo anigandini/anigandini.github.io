@@ -1,9 +1,9 @@
 {
-  "name": "ani-gandini",
+  "name": "anigandini.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://anigandini.github.io",
   "dependencies": {
-    "-": "0.0.1",
     "@emailjs/browser": "^3.4.0",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -12,12 +12,10 @@
     "@types/node": "^16.11.19",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
-    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-device-detect": "^2.1.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
-    "save-dev": "0.0.1-security",
     "typescript": "^4.5.4",
     "web-vitals": "^2.1.2"
   },
@@ -25,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
