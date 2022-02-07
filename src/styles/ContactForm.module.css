@@ -9,7 +9,7 @@
 .container label,
 .container textarea,
 .input {
-    font-family: 'Roboto', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .input,
