@@ -1,0 +1,68 @@
+.container {
+    box-sizing: border-box;
+    width: 100vw;
+    background-color: rgb(204, 204, 204);
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+    padding: .5rem;
+}
+
+.container h1 {
+    font-size: 1rem;
+}
+
+.container div {
+    display: flex;
+    align-items: center;
+    
+}
+
+.container div img {
+    height: 1.5rem;
+    padding-left: .5rem;
+}
+
+@media (min-width: 768px) {
+    .container {
+        background-color: transparent;
+        position: fixed;
+        top: 0;
+        padding: 1rem;
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+    }
+
+    .container div img {
+        height: 2rem;
+        padding-left: 1rem;
+    }
+    
+    .container.scrolled {
+        background-color: rgb(204, 204, 204);
+        transition: background-color 200ms linear;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    .container div img {
+        height: 2.5rem;
+        padding-right: 1.5rem;
+        padding-left: 0;
+    }
+
+}
